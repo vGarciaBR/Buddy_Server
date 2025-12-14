@@ -76,17 +76,12 @@ O servidor requer um banco de dados MySQL com as seguintes tabelas:
 
 ## 🚀 Instalação
 
-### 1. Clone ou baixe o projeto
-```bash
-cd C:\Users\Eletrocel\.gemini\antigravity\playground\tachyon-glenn
-```
-
-### 2. Instale as dependências
+### 1. Instale as dependências
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Configure o banco de dados
+### 2. Configure o banco de dados
 Execute o script SQL para criar as tabelas necessárias no seu banco de dados MySQL:
 ```sql
 -- Certifique-se de que o banco de dados 'gbwc' existe
@@ -97,7 +92,7 @@ USE gbwc;
 -- (User, Game, BuddyList, CurrentUser, LoginLog, SavePacket)
 ```
 
-### 4. Configure o servidor
+### 3. Configure o servidor
 Edite o arquivo `buddy_server/config.py`:
 ```python
 class Config:
@@ -444,3 +439,4 @@ Para questões e suporte, abra uma issue no repositório do projeto.
 ---
 
 **Desenvolvido com ❤️ para a comunidade GunBound**
+
